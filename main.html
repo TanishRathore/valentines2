@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Proposal</title>
+</head>
+<body>
+    <div id="content">
+        <div id="question">Will you be my Valentine?</div>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHdidXp3YzVjZDA3czZsazJiNzB5bDNrbWM0bmVtdjhoczE4M21vcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dU6eAPR06VfpWAbCIi/giphy.gif" alt="Your Image" id="proposal-image">
+        <div id="buttons">
+            <button id="yes-button" class="button" onclick="openReactionPage()">Yes</button>
+            <button id="no-button" class="button" onclick="floatNoButton()">No</button>
+        </div>
+        <div id="reaction">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmI3N3J2cmdyYnhnZGF6a254a2o0cnI4dXFkbjBvam55MXpwcXhwdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VBUkRtVVlDGCFEGCjf/giphy.gif" alt="Cute GIF">
+        </div>
+    </div>
+    <script>
+        function openReactionPage() {
+            window.open('reaction.html', '_blank');
+        }
+
+        function floatNoButton() {
+            // This function is intentionally left empty as the "No" button should float on hover.
+        }
+    </script>
+</body>
+</html>
